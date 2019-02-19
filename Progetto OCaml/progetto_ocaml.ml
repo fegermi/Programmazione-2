@@ -1,5 +1,4 @@
 (* 2° progetto PR2 *)
-(* Germinario Federico 545081 *)
 
 type ide = string;;
 type exp = Eint of int | Ebool of bool | Den of ide | Prod of exp * exp | Sum of exp * exp | Diff of exp * exp |
